@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Preferences Page</title>
+    <link rel="stylesheet" href="{% static 'preferences/styles/window.css' %}" type="text/css">
+    <script src="https://cdn.webix.com/edge/webix.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="{% static css_file %}" type="text/css">
+</head>
+<body>
+
+<div class="center-container">
+    <div class="window" id="app"></div>
+</div>
+
+<script src="{% static 'preferences/scripts/script.js' %}" type="text/javascript"></script>
+</body>
+</html>
